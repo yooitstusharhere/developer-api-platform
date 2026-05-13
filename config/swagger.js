@@ -19,12 +19,16 @@ const swaggerOptions = {
                 'API documentation for Developer API Platform'
         },
 
-        servers: [
-            {
-                url:
-                    'http://localhost:5000'
-            }
-        ]
+      servers: [
+  {
+    url: 'https://developer-api-platform.onrender.com',
+    description: 'Live Server'
+  },
+  {
+    url: 'http://localhost:5000',
+    description: 'Local Server'
+  }
+]
     },
 
     apis: [
